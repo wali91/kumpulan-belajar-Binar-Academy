@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <div class="container"> 
+<title> belajar html </title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+  <h1 class="tipe1">
+    hello saya sedang belajar HTML dan CSS
+  </h1>
+  <ul>
+    <li><a href="dasar-html.html" target="_blank"> html </a></li>
+    <li><a href="css.html" target= "_blank"> css </a></li>
+  </ul>
+<table border ="1">
+  <tr>
+    <td id="baris1"> Baris 1 kolom 1 HTML </td>
+    <td id="baris2">baris 2 kolom 1 CSS </td>
+  </tr>
+  <tr>
+  <td class="baris1">Baris 2 kolom 1 HTML </td>
+  <td class="baris2">baris 2 kolom 2 CSS </td>
+  </tr>
+  </table>
+  <br/>
+
+    <form id="survey-room">
+      <div class="form-group">
+        <label id="name-label" for="name">
+          nama  : </label>
+          <input type ="text" 
+          name ="nama"
+          id="name"
+          class="form-control"
+          placeholder="Enter your name"
+          required/>
+          </div>
+          <div class="form-group">
+            <label id="alamat-label"
+            for="alamat">
+            alamat  : </label>
+            <input 
+            type="text" 
+            name ="alamat"
+            id="alamat"
+            class="form-control"
+            placeholder="Enter your address"
+            required/>
+            </div>
+            <div class="form-group">
+                <label id="number-label" for="number">
+                umur  : <span class="clue">(optional)
+                </span></label> 
+                <input 
+                type="number" 
+                name ="umur"
+                id="number"
+                min="5"
+                max="99"
+                class="form-control"
+                placeholderr="umur"/>
+                </div>
+            <div class="form-group">
+            <label id="number-label"
+            for= "number">
+            Nomor Hp : </label>
+            <input 
+            type=”number”
+            name="number"
+            id="number"
+            class="form-control"
+            placeholder="number-hp"
+            required/>
+            </div>
+            <div class="form-group">
+              kota asal :
+              <select id="dropdown" name="role" class="form-control" required>
+                <option disabled selected value>Select curent area</option>
+                <option value="jakarta"> jakarta </option>
+                <option value="bandung"> bandung </option>
+                <option value="semarang"> semarang </option>
+                <option value="lampung"> lampung </option>
+              </select>
+              </div>
+              <div class="form-group">
+                <label>
+                <input 
+                type="checkbox"
+                 name ="text" 
+                 value="html" 
+                 class="input-checkbox"
+                 checked="checked"/>belajar html
+                 </label>
+                 <label>
+                 <input 
+                 type="checkbox" 
+                 name ="text" 
+                 class="input-checkbox"
+                 value ="css"/> belajar css
+                 </label>
+                 </div>
+                 <div class="form-group">
+                 <p>Alamat</p>
+                 <textarea id="comments"
+                 name ="comment" 
+                 class="input-textarea"
+                 placeholder="Enter your comment here...">
+                </textarea>
+                </div>
+                <div class="form-group">
+                  <button type="submit"
+                   id="submit" 
+                   value='kirim'
+                   class="submit-button">
+                   submit </button>
+                  </div>
+                </form>
+                </div>
+                <footer>
+  <p>copyright 2019...</p>
+</footer>
+</body>
+</html>

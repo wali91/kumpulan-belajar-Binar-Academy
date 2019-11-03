@@ -1,0 +1,11 @@
+1. buat file dengan nama form html
+2.buatlah sebuah konten dengan menggunakan tag sebagai berikut, image,ul,a,footer,table
+3.buat sebuah form yang menggunakan jenis-jenis input sebagai berikut :
+  a.Textarea
+  b. checkbox
+  c. text
+  d. number
+  e. select
+4.push ke github masing masing
+
+git add . | git add (nama file)
