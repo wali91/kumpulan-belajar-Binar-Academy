@@ -75,4 +75,57 @@ contoh perulangan :
 
 
 ### Penjelasan Operator didalam pemrograman dan contoh penulisannya di dalam pemrograman javascript:
+operator adalah sebuah simbol yang digunakan untuk melakukan operasi pada suatu nilai dan variable.
+operator dalam program ada 4 jenis :
+1. Operator aritmatika;
+2. Operator Penugasan (Assignment);
+3. Opeartor relasi atau perbandingan;
+4. Operator Logika;
 
+1. operator aritmatika : merupakan operator untuk melakukan operasi aritmatika seperti penjumlahan, pengurangan, pembagian, perkalian, dsb.
+ * contoh operator aritmatika :
+   var a = 5;
+   var b = 3;
+   // menggunakan operator penjumlahan
+   var c = a + b;
+   console.log(c);
+ * akan menampilkan hasil jumlah dari 5 ditambah 3 yaitu 8
+2. Operator Penugasan (Assignment) adalah operator yang digunakan untuk memberikan tugas kepada variabel. Biasanya digunakan untuk mengisi variabel.
+ * Operator penugasan terdiri dari:
+   Nama Operator	Sombol
+   Pengisian Nilai	=
+   Pengisian dan Penambahan	+=
+   Pengisian dan Pengurangan	-=
+   Pengisian dan Perkalian	*=
+   Pengisian dan Pemangkatan	**=
+   Pengisian dan Pembagian	/=
+   Pengisian dan Sisa bagi	%=
+* contoh operator penugasan :
+  var a = 2;
+    a++;
+3. Operator relasi atau perbandingan adalah operator yang digunakan untuk membandingkan dua nilai.
+  * contoh operator perbandingan :
+    var a = "4" == 4; //-> true
+    / / sedangkan ini akan bernilai false
+    var b = "4" === 4; //-> false
+4. Operator Logika adalah yang digunakan untuk melakukan operasi terhadap dua nilai boolean.
+  * contoh operator logika :
+        var aku = 20;
+        var kamu = 19;
+
+        var benar = aku > kamu;
+        var salah = aku < kamu;
+
+        // operator && (and)
+        var hasil = benar && salah;
+        document.write(`${benar} && ${salah} = ${hasil}<br/>`);
+        
+        // operator || (or)
+        var hasil = benar || salah;
+        document.write(`${benar} || ${salah} = ${hasil}<br/>`);
+        
+        // operator ! (not)
+        var hasil = !benar
+        document.write(`!${benar} = ${hasil}<br/>`
+  * penjelasan pada logika and apabila ada salah satu yang salah maka hasilnya adalah false,dan apabila pada logika or walaupun ada salah satu yang salah tetep hasilnya true,
+    dan pada logika not merupakan kebalikannya apabila true maka hasilnya false
