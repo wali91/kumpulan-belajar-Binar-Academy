@@ -1,0 +1,10 @@
+1. buatlah fungsi myProfile untuk menampilkan informasi data diri,dengan parameter,nama,umur,dan hobi.
+jika umur kurang dari sama dengan 56 tahun:
+hasil: nama saya banmbang, saya masih aktif bekerja,umur saya 25 tahun, saya hobi memancing.
+jika umur lebih dari 56 tahun 
+Hasil: nama saya bambang,saya sudah pensiun dan umur saya 60 tahun,saya hobi memancing.
+
+2. buatlah fungsi calculator untuk melakukan pertambahan,perkalian,ekponensial,pengurangan dengan parameter nama operasi,angka1,angka2 
+contoh: 
+input : calculator('pertambahan'.1.4)
+output : hasil pertambahan 1 dan 4 adalah 5
