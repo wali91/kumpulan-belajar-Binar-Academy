@@ -1,0 +1,131 @@
+### Penterjemah Bahasa :
+Terdapat dua jenis penterjemah bahasa pemrograman yaitu:
+* Interpreter 
+* Compiler 
+- Interpreter adalah suatu perangkat lunak yang dapat mengeksekusi sumber code yang ditulis oleh programer serta menterjemahkanya langsug kedalam bentuk mesin sehingga 
+komputer/mesin dapat langsung megetahui keinginan/instruksi yang diinginkan seorang programer didalam menuis sebuah program.
+Perintah-perintah yang dibuat oleh programmer tersebut dieksekusi baris demi baris,sambil mengikuti logika yang terdapat di dalam kode tersebut.
+contoh program yang menggunakan Interpreter : JAVA,Pyton,PHP,Ruby.
+
+- Compiler adalah suatu cara didalam menterjemahkan bahasa pemrogramanya dengan membuat kedalam bahasa objek terlebih dahulu,lalu setelah itu menggabungkan kelas library
+setelah semua sudah lengkap barulah keseluruhan program baru bisa disatukan dan hasil programnya berupa file extension dimana file tersebut sebagai file eksekusi program
+yang dibuat.
+contoh program yang menggunakan compiler adalah: C++,Pascal visual basic,C#.
+
+* Perbedaan Interpreter & Compiler
+1. Interpreter menterjemahkan instruksinya satu persatu,kalau compiler bisa langsung sekaligus.
+2. Interpreter didalam proses error bisa dibetulkan secara interaktif, tetapi kalu compiler apabila ada errror kompilasi maka harus kembali ke sumbernya serta mengkompile lagi
+3. Interpreter tidak menghasilkan Objek program, Compiler menghasilkan objec program.
+
+
+### Penjelasan Variable serta contoh penggunaan didalam Bahasa program Javascript:
+ada beberapa salah satu istilah yang sering digunakan didalam melakukan pemrograman salah satunya adalah Variable dan type data,apakah yang dimaksud variabel dan type data ini,
+dan contoh-contohnya didalam penggunaanya didalam javascript :
+berikut penjelasannya :
+A. Variable adalah adalah sebuah nama didalam mewakili sebuah nilai,Variable bisa diisi dengan bermacam nilai seperti String(teks),number(angka),objek,array dan sebagainya.
+bisa diibaratkan variable itu merupaka suatu wadah didalam menyimpan sesuatu.
+contoh penggunaan Variable didalam javascript :
+- var title = "Belajar Pemrograman Javascript";
+ * penjelasan title dengan nilai berupa teks (string): "Belajar Pemrograman Javascript".
+B. Type data adalah jenis-jenis isi data yang digunakan didalam Variable ada beberapa jenis didalam javascript:
+ * String (teks)
+ * Integer atau Number (bilangan bulat)
+ * Float (bilangan Pecahan)
+ * Boolean
+ * Object
+contoh penggunaan Type data javascript :
+* var name = "Dian";
+* var age = 22;
+* var single = true;
+
+Javascript akan otomatis mengenali tipe data yang kita berikan pada variabel.
+Pada contoh di atas variabel:
+    * name bertipe data String;
+    * age bertipe data integer;
+    * dan single bertipe data boolean.
+    
+    
+### Penjelasan Control FLow didalam pemrograman dan contoh penulisannya di dalam pemrograman javascript:
+Control FLow adalah suatu cara didalam mengatur serta mengontrol alur pemrosesan syntax pemrograman yang diinginkan
+ada beberap cara yang dilakukan dalam mengatur alur tersebut bisa dengan perulangan dan pengkondisian.
+contoh perulangan :
+- for :
+*  for (i=0 ; i<5 ; i++){ 
+               document.write ("hello world "+"<br/>);
+               }
+  * penjelasan : perintah diatas akan menampilkan hello world sebanyak 5 kali
+
+- while :
+ * var i = 0 ;
+ 
+   while (i<5) {
+               document.write("saya suka programing");
+               i++;
+               }
+ * penjelasan : perintah diatas akan menampilkan saya suka programing sebanyak 5 kali dengan ditambahkan increment
+ 
+- do while :
+ * var i = 0 ;
+            do {
+               document.write("saya suka programing");
+               i++;
+               }
+     while (i<5);
+* penjelasan : yang ditampilkan sama seperti while hanya cara penulisannya saja yang beda hanya dibalik saja.
+
+
+### Penjelasan Operator didalam pemrograman dan contoh penulisannya di dalam pemrograman javascript:
+operator adalah sebuah simbol yang digunakan untuk melakukan operasi pada suatu nilai dan variable.
+operator dalam program ada 4 jenis :
+1. Operator aritmatika;
+2. Operator Penugasan (Assignment);
+3. Opeartor relasi atau perbandingan;
+4. Operator Logika;
+
+1. operator aritmatika : merupakan operator untuk melakukan operasi aritmatika seperti penjumlahan, pengurangan, pembagian, perkalian, dsb.
+ * contoh operator aritmatika :
+   var a = 5;
+   var b = 3;
+   // menggunakan operator penjumlahan
+   var c = a + b;
+   console.log(c);
+ * akan menampilkan hasil jumlah dari 5 ditambah 3 yaitu 8
+2. Operator Penugasan (Assignment) adalah operator yang digunakan untuk memberikan tugas kepada variabel. Biasanya digunakan untuk mengisi variabel.
+ * Operator penugasan terdiri dari:
+   Nama Operator	Sombol
+   Pengisian Nilai	=
+   Pengisian dan Penambahan	+=
+   Pengisian dan Pengurangan	-=
+   Pengisian dan Perkalian	*=
+   Pengisian dan Pemangkatan	**=
+   Pengisian dan Pembagian	/=
+   Pengisian dan Sisa bagi	%=
+* contoh operator penugasan :
+  var a = 2;
+    a++;
+3. Operator relasi atau perbandingan adalah operator yang digunakan untuk membandingkan dua nilai.
+  * contoh operator perbandingan :
+    var a = "4" == 4; //-> true
+    / / sedangkan ini akan bernilai false
+    var b = "4" === 4; //-> false
+4. Operator Logika adalah yang digunakan untuk melakukan operasi terhadap dua nilai boolean.
+  * contoh operator logika :
+        var aku = 20;
+        var kamu = 19;
+
+        var benar = aku > kamu;
+        var salah = aku < kamu;
+
+        // operator && (and)
+        var hasil = benar && salah;
+        document.write(`${benar} && ${salah} = ${hasil}<br/>`);
+        
+        // operator || (or)
+        var hasil = benar || salah;
+        document.write(`${benar} || ${salah} = ${hasil}<br/>`);
+        
+        // operator ! (not)
+        var hasil = !benar
+        document.write(`!${benar} = ${hasil}<br/>`
+  * penjelasan pada logika and apabila ada salah satu yang salah maka hasilnya adalah false,dan apabila pada logika or walaupun ada salah satu yang salah tetep hasilnya true,
+    dan pada logika not merupakan kebalikannya apabila true maka hasilnya false
